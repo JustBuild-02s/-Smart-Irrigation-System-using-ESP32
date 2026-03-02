@@ -1,0 +1,28 @@
+🔌 Circuit Connections
+Soil Moisture Sensor
+| Sensor Pin | ESP32    |
+| ---------- | -------- |
+| VCC        | VIN (5V) |
+| GND        | GND      |
+| AO         | GPIO 34  |
+
+Relay Module
+| Relay Pin | ESP32    |
+| --------- | -------- |
+| VCC       | VIN (5V) |
+| GND       | GND      |
+| IN        | GPIO 26  |
+
+LED
+GPIO 27 → 220Ω Resistor → LED (+)
+LED (–) → GND
+
+Buzzer
+GPIO 25 → Buzzer (+)
+Buzzer (–) → GND
+
+Water Pump (External Power)
+External + → Relay COM
+Relay NO → Pump +
+Pump – → External –
+⚠ Pump must use external power supply.
