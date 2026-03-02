@@ -1,0 +1,11 @@
+🛠 Components Used
+ESP32 Development Board
+Soil Moisture Sensor (Analog)
+Single Channel 5V Relay Module
+DC Water Pump
+LED
+220Ω Resistor
+Buzzer
+External Power Supply (for pump)
+Jumper Wires
+Breadboard
